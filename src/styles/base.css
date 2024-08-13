@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Medium.ttf') format('truetype');
+}
+body {
+  font-family: 'Oswald';
+  font-size: 16px;
+  overflow-x: hidden;
+  background-color: var(--bgColor);
+  color: var(--textColor);
+}
