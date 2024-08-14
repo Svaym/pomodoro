@@ -1,0 +1,13 @@
+.input {
+  padding: 8px 5px;
+  outline: none;
+  background-color: var(--lightGreen);
+  border-radius: 10px;
+  transition: 0.3s ease-in background-color;
+  &:hover {
+    background-color: var(--textColor);
+  }
+  &:focus {
+    background-color: var(--bgColor);
+  }
+}
