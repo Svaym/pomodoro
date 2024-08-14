@@ -1,0 +1,27 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+.modalContent {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #a5b586;
+}
+.x {
+  display: block;
+  margin-left: auto;
+  cursor: pointer;
+  transition: 0.3s ease-in stroke;
+  &:hover {
+    stroke: var(--accentColor);
+  }
+}

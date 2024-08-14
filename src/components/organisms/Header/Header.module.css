@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../../fonts/Montserrat-Bold.ttf') format('truetype');
+}
+.header {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  padding: 1.75rem 0;
+  background-color: var(--lightGreen);
+  box-shadow: 0px 0px 1.25rem var(--lightGreen);
+}

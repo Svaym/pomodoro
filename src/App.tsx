@@ -1,10 +1,11 @@
-import Title from './components/atoms/Title/Title';
+import Header from './components/organisms/Header/Header';
+import Pomodoro from './components/organisms/Pomodoro/Pomodoro';
 
 function App() {
   return (
     <>
-      <Title />
-      <h3>asdadsadsadssda</h3>
+      <Header />
+      <Pomodoro />
     </>
   );
 }

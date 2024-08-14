@@ -1,10 +1,6 @@
-import { ReactNode } from 'react';
+import { ChildrenProps } from '../../../types/types';
+import classes from './Title.module.css';
 
-import styles from './Title.module.css';
-
-interface TitleProps {
-  children: ReactNode;
-}
-export default function Title({ children }: TitleProps) {
-  return <h2 className={styles.title}>{children}</h2>;
+export default function Title({ children }: ChildrenProps) {
+  return <h2 className={classes.title}>{children}</h2>;
 }
